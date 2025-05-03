@@ -22,6 +22,7 @@ branches:
   only:
     - master
     - /\d*\.\d*\.\d*/
+    - /dev/[a-zA-Z].*
 
 init:
   # Good practise, because Windows line endings are different from Unix/Linux ones
